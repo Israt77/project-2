@@ -1,0 +1,329 @@
+/* Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+    .header{
+        padding:1.5rem 2rem;
+    }
+
+    section{
+        padding:2rem;
+    }
+
+.navbar-toggler{
+    margin-top: 0 !important;
+}
+.language{
+   width: 35%;
+}
+.nav-item{
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: -20px;
+}
+.h-btn{
+    font-size: 15px;
+}
+/*banner start*/
+
+.b_content h2 {
+    font-size: 35px;
+    margin-bottom: 10px;
+}
+.btn {
+    font-size: 15px;
+    padding: 10px 30px;
+    line-height: 25px;
+}
+.b_content p {
+    margin-bottom: 20px;
+}
+/*card start*/
+.heading {
+    font-size: 25px;
+}
+.box-text{
+    padding: 10px;
+}
+/*faq start*/
+.faq-title h1 {
+    font-size: 25px;
+    padding-bottom: 40px;
+}
+.accordion{
+    width: 100%;
+    max-width: 100%;
+}
+.accordion a {
+    padding: 0.5rem 2rem 0.5rem 0.5rem; 
+    font-size: 16px;
+}
+.accordion a::after {
+    width: 20px;
+    height: 20px;
+    font-size: 12px;
+}
+/*contact start*/
+.contact-title h1{
+    font-size: 35px;
+}
+/*registration start*/
+.reg-btn {
+  font-size: 14px;
+}
+.code-container {
+    width: 100%;
+    margin-left: 0 !important;
+}
+button:not(:disabled), [type=button]:not(:disabled), [type=reset]:not(:disabled), [type=submit]:not(:disabled) {
+    cursor: pointer;
+    margin-top: 30px;
+}
+.r-btn {
+    width: 100%;
+    font-size: 16px;
+}
+/*profile page start*/
+.form-control {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.labels {
+    font-size: 15px;
+}
+.tog {
+ line-height: 1.2;
+ font-size: 15px;
+}
+.p-pro{
+    margin-bottom: 15px;
+    font-size: 16px;
+}
+.pro{
+    font-size: 16px;
+}
+.d-pro{
+    font-size: 14px;
+}
+.profile-img img {
+    width: 100%;
+    }
+.profile-img .file{
+    width: 100%;
+    font-size: 14px;
+}
+/*album start*/
+.album-title h2{
+    font-size: 35px;
+}
+.product-label{
+    width: 30%;
+    font-size: 15px;
+    padding: 8px 20px;
+    margin-right: 0;
+    margin-bottom: 10px;
+}
+#emails {
+    width: 68%;
+    padding: 8px 20px;
+}
+.f_title h2{
+    font-size: 20px;   
+}
+.f_title a i{
+    padding-bottom: 20px;
+}
+.credit{
+    font-size: 0.9rem;
+}
+
+}
+/* Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+.header{
+        padding:1.5rem 2rem;
+    }
+
+    section{
+        padding:2rem;
+    }
+.nav-item{
+  margin-top: 15px;
+  margin-bottom: 10px;
+  margin-left: -20px;
+}
+.language{
+   width: 15%;
+}
+    /*banner start*/
+.b_content h2 {
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+
+.btn {
+    font-size: 16px;
+    padding: 12px 30px;
+}
+.heading {
+    font-size: 24px;
+}
+.box{
+    float: none;
+}
+.box-text {
+    margin-top: 30px;
+    padding: 10px;
+}
+/*faq start*/
+.faq-title h1 {
+    font-size: 30px;
+    padding-bottom: 40px;
+}
+.accordion{
+    width: 100%;
+    max-width: 100%;
+}
+.accordion a {
+    padding: 0.5rem 2rem 0.5rem 0.5rem; 
+    font-size: 16px;
+}
+/*profile page start*/
+.form-control {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.p-pro{
+    margin-bottom: 15px;
+}
+.tog {
+ font-size: 15px;
+}
+.product-label{
+    width: 15%;
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+#emails {
+    width: 84%;
+}
+.f_title h2{
+    font-size: 22px;   
+}
+.credit {
+    font-size: 1rem;
+}
+
+}
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+
+.header{
+        padding:1.5rem 2rem;
+    }
+
+    section{
+        padding:2rem;
+    }
+.nav-item{
+  margin-top: 15px;
+  margin-bottom: 10px;
+  margin-left: -20px;
+}
+.language{
+   width: 15%;
+}
+
+/*.log-btn {
+  margin-left: 385px;
+}
+/*banner start*/
+.b_content h2 {
+    font-size: 35px;
+    margin-bottom: 30px;
+}
+.btn {
+    font-size: 16px;
+    padding: 13px 30px;
+}
+/*card start*/
+.heading {
+    font-size: 28px;
+}
+.box{
+    padding: 0;
+    padding-left: 0;
+    margin-top: 70px
+}
+.box-text{
+    padding: 0;
+}
+.d-pro {
+    font-size: 14px;
+}
+.profile-img img {
+    width: 100%;
+    }
+.profile-img .file{
+    width: 100%;
+    font-size: 14px;
+}
+.accordion{
+    width: 100%;
+    max-width: 100%;
+}
+.product-label{
+    width: 25%;
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+#emails {
+    width: 73%;
+}
+.f_title h2{
+    font-size: 20px;
+}
+.f_content {
+    padding-right: 0;
+}
+
+}
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+.header{
+        padding:1.5rem 2rem;
+    }
+
+    section{
+        padding:2rem;
+    }
+.language{
+   width: 15%;
+}
+.profile-img img {
+    width: 80%;
+    }
+.profile-img .file{
+    width: 80%;
+    font-size: 14px;
+}
+
+}
+
+/* Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {
+    .header{
+        padding:1.5rem 2rem;
+    }
+
+    section{
+        padding:2rem;
+    }
+.profile-img img {
+    width: 60%;
+    }
+.profile-img .file{
+    width: 60%;
+    font-size: 16px;
+}
+
+}
+
